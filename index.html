@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="javascript calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="wrap">
+        <h1>Basic Calculator</h1>
+        <br>
+        <form id="myform" name="calc">
+            <input id="blue" name="display" ><br>
+            <input class="b" type="button" value="0" OnClick="calc.display.value+='0'">
+            <input class="b" type="button" value="1" OnClick="calc.display.value+='1'">
+            <input class="b" type="button" value="2" OnClick="calc.display.value+='2'">
+            <input class="b" type="button" value="+" OnClick="calc.display.value+='+'" style="background-color: purple;"><br>
+            <input class="b" type="button" value="3" OnClick="calc.display.value+='3'">
+            <input class="b" type="button" value="4" OnClick="calc.display.value+='4'">
+            <input class="b" type="button" value="5" OnClick="calc.display.value+='5'">
+            <input class="b" type="button" value="-" OnClick="calc.display.value+='-'" style="background-color: blueviolet;"><br>
+            <input class="b" type="button" value="6" OnClick="calc.display.value+='6'">
+            <input class="b" type="button" value="7" OnClick="calc.display.value+='7'">
+            <input class="b" type="button" value="8" OnClick="calc.display.value+='8'">
+            <input class="b" type="button" value="x" OnClick="calc.display.value+='*'" style="background-color: blue;"><br>
+            <input class="b" type="button" value="9" OnClick="calc.display.value+='9'">
+            <input class="b" type="button" value="C" OnClick="calc.display.value=''" style="background-color: #cc0000;">
+            <input class="b" type="button" value="=" OnClick="calc.display.value=eval(calc.display.value)" style="background-color: green">
+            <input class="b" type=button value="&#247;" OnClick="calc.display.value+='/'" style="background-color: hotpink;">
+        </form>
+        </div>
+    </body>
+</html>

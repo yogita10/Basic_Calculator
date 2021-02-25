@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(to right, #fa709a 5%, #fee140 100%);
+}
+input{
+    width: 15%;
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+    font-size: 75px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+}
+.b{
+    background-color: #000;
+}
+#myform{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    position: relative;
+}
+
+#blue{
+    width:68% ; 
+    height: 100px; 
+    text-align: center; 
+    background-color: #1f80c9; 
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 0px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    
+    input{
+        width: 15%;
+        height: 50px;
+        font-size: 40px;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: #000;
+        color: #fff;
+        border-style: none;
+    }
+   #blue{
+       width:80%;
+       height: 70px;
+   }
+   .wrap{
+       height: 100%;
+   }
+   h1{
+       font-size: 4rem;
+   }
+
+}
